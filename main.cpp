@@ -1,12 +1,9 @@
 #include <iostream>
-#include "test.cpp"
+#include "algorithm/algorithm.h"
 
 using namespace std;
 
 int main() {
-
-    test();
-
-
+    alg_fire();
     return 0;
 }

@@ -3,9 +3,9 @@ project(algorithm)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(
-        algorithm main.cpp
-        algorithm/001_twosum/SolutionTwoSum.cpp
-        algorithm/001_twosum/SolutionTwoSum.h
-        test.cpp
-)
+aux_source_directory(${PROJECT_SOURCE_DIR}/algorithm SRC)
+#aux_source_directory(${PROJECT_SOURCE_DIR}/algorithm/001_twosum SRC)
+
+include_directories(${PROJECT_SOURCE_DIR}/algorithm)
+
+add_executable(algorithm main.cpp ${SRC})

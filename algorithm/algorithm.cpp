@@ -1,19 +1,16 @@
 //
-// Created by admin on 2018/10/10.
+// Created by admin on 2019/5/6.
 //
 
 #include <iostream>
-#include "algorithm/001_twosum/SolutionTwoSum.h"
+#include "algorithm.h"
+#include "001.h"
 
-static void test_001();
-
-
-static void test() {
-    test_001();
+void alg_fire() {
+    test001();
 }
 
-static void test_001() {
-
+void test001() {
     int rand[] = {8, 3, 23, 12, 87};
     vector<int> ori(rand, rand + 5);
 
@@ -28,3 +25,5 @@ static void test_001() {
         cout << result.at(i) << ": " << rand[result.at(i)] << endl;
     }
 }
+
+
