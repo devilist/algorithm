@@ -10,7 +10,7 @@
 using namespace std;
 
 void alg_fire() {
-    TEST(test, 002);
+    TEST(test, 003);
 }
 
 

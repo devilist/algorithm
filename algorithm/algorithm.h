@@ -7,6 +7,7 @@
 
 #include "001/001.h"
 #include "002/002.h"
+#include "003/003.h"
 
 
 void alg_fire();
