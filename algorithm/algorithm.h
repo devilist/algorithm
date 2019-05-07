@@ -5,7 +5,8 @@
 #ifndef ALGORITHM_ALGORITHM_H
 #define ALGORITHM_ALGORITHM_H
 
-void test001();
+#include "001/001.h"
+#include "002/002.h"
 
 
 void alg_fire();

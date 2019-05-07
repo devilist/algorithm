@@ -21,5 +21,7 @@ public:
 
 };
 
+void test001();
+
 
 #endif //ALGORITHM_SOLUTIONTWOSUM_H

@@ -4,26 +4,15 @@
 
 #include <iostream>
 #include "algorithm.h"
-#include "001.h"
+
+#define TEST(x, y) test##y()
+
+using namespace std;
 
 void alg_fire() {
-    test001();
+    TEST(test, 002);
 }
 
-void test001() {
-    int rand[] = {8, 3, 23, 12, 87};
-    vector<int> ori(rand, rand + 5);
 
-    SolutionTwoSum solutionTwoSum;
-
-    int target = 15;
-    cout << "target: " << target << endl;
-
-    vector<int> result = solutionTwoSum.twoSum(ori, target);
-
-    for (int i = 0; i < result.size(); i++) {
-        cout << result.at(i) << ": " << rand[result.at(i)] << endl;
-    }
-}
 
 
