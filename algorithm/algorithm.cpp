@@ -5,7 +5,7 @@
 #include <iostream>
 #include "algorithm.h"
 
-#define TEST(x, y) test##y()
+#define TEST(x, y) x##y()
 
 using namespace std;
 
